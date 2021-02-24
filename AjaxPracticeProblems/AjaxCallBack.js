@@ -26,7 +26,7 @@ function makeAJAXCall(methodType, url, callback, async=true, data=null) {
     console.log(methodType+ "request sent to the server at: "+showTime());
 }
 
-const getURL = "http://localhost:3000/employees/1;";
+const getURL = "http://localhost:3000/employees/1";
 function getUserDetails(data) {
     console.log("Get User Data at: "+showTime()+ "data: " +data)
 }
